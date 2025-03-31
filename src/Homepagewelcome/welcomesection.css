@@ -1,0 +1,36 @@
+.overerall-welcome-section-container{
+height: max-content;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 1rem;
+padding-block: 3rem;
+}
+.overerall-welcome-section-container h1{
+font-size: 3rem;
+width: 40rem;
+text-align: center;
+}
+@media screen and (max-width:40.625em) {
+    .overerall-welcome-section-container h1{
+    width: 100%;
+    
+    }   
+}
+
+.step-into-paragraph{
+font-size: 1.5rem;
+}
+.discover-paragraph{
+font-size: 1.5rem;
+width: 60rem;
+text-align: center;
+}
+@media screen and (max-width:40.625em) {
+    .discover-paragraph{
+        font-size: 1.5rem;
+        width: 100%;
+        text-align: center;
+        }  
+}
