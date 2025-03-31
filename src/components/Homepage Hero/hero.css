@@ -1,0 +1,193 @@
+@media screen and (min-width:62.5em) {
+
+
+.overall-hero-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
+    height: 60rem;
+    background-color:black;
+   
+}
+
+@media screen and (max-width:62.5em) {
+    .overall-hero-container{
+    position: relative;
+    }  
+}
+ .left-side-container-hero-homepage{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+@media screen and (max-width:62.5em) {
+    .left-side-container-hero-homepage{
+        position: absolute;
+        z-index: +2;
+        height: 40rem;
+    }   
+}
+
+.icon-certified-hero{
+    color: var(--secondary-color);
+    font-size: 7rem;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+}
+
+.hero-title{
+    font-size: 6rem;
+    text-align: center;
+    background: linear-gradient(90deg, var(--secondary-color), #ffcc00);
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+}
+
+.hero-paragraph{
+    font-size: 1.9rem;
+    width: 60%;
+    text-align: center;
+    }
+
+    .button-view-work-hero {
+        background-color: #66cc33; 
+        color: white; 
+        font-size: 1.6rem;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease; 
+        box-shadow: 0 0 15px rgba(102, 204, 51, 0.8), 0 0 30px rgba(255, 255, 0, 0.6);
+        animation: bulbGlow 2s infinite; 
+    }
+    
+    @keyframes bulbGlow {
+        0% {
+            box-shadow: 0 0 15px rgba(102, 204, 51, 0.8), 0 0 30px rgba(255, 255, 0, 0.6);
+        }
+        50% {
+            box-shadow: 0 0 25px rgba(102, 255, 102, 1), 0 0 50px rgba(255, 255, 0, 0.8);
+        }
+        100% {
+            box-shadow: 0 0 15px rgba(102, 204, 51, 0.8), 0 0 30px rgba(255, 255, 0, 0.6);
+        }
+    }
+
+.right-side-image-homepage{
+width: 100%;
+height: 100%;
+}
+@media screen and (max-width:62.5em) {
+    .right-side-image-homepage{
+        position: absolute;
+        z-index: +1;
+        top: 0px;
+       
+    }
+}
+
+
+
+
+.right-side-container-hero-homepage{
+border: 1px solid;
+height: 60rem;
+position: relative;
+
+} 
+.right-side-image-homepage{
+position: absolute;
+z-index: +1;
+}
+.right-side-image-homepage img{
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+}
+.right-side-image-opacity{
+position: absolute;
+z-index: +2;
+background-color: black;
+top: 0;
+width: 100%;
+height: 100%;
+opacity: 0.7;
+}
+
+
+}
+/* On Phone styling */
+
+
+
+@media screen and (max-width:62.5em) {
+.overall-hero-container{
+display: none;
+}
+
+.on-small-screen-hero {
+    width: 100%;
+    height: 85vh;
+    background-color: red; /* Fallback color in case the image doesn't load */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('../../assets/teach2givepic1.jpg');
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repetition */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .small-screen-text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-certified-hero-small{
+    color: var(--secondary-color);
+    font-size: 7rem;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+  }
+  .hero-title-small{
+    font-size: 3rem;
+    text-align: center;
+    background: linear-gradient(90deg, var(--secondary-color), #ffcc00);
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;  
+  }
+  .hero-paragraph-small{
+    font-size: 1.9rem;
+    width:100%;
+    text-align: center; 
+  }
+  .button-view-work-hero-small{
+    background-color: #66cc33; 
+        color: white; 
+        font-size: 1.6rem;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease; 
+        box-shadow: 0 0 15px rgba(102, 204, 51, 0.8), 0 0 30px rgba(255, 255, 0, 0.6);
+        animation: bulbGlowprop 2s infinite; 
+  }
+
+  @keyframes bulbGlowprop {
+    0% {
+        box-shadow: 0 0 15px rgba(102, 204, 51, 0.8), 0 0 30px rgba(255, 255, 0, 0.6);
+    }
+    50% {
+        box-shadow: 0 0 25px rgba(102, 255, 102, 1), 0 0 50px rgba(255, 255, 0, 0.8);
+    }
+    100% {
+        box-shadow: 0 0 15px rgba(102, 204, 51, 0.8), 0 0 30px rgba(255, 255, 0, 0.6);
+    }
+}
+}
