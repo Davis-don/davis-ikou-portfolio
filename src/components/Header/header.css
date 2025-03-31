@@ -1,0 +1,115 @@
+.overall-header-container-overall{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding-block: 2rem;
+padding-inline: 4rem;
+background-color: black;
+gap: 2rem;
+}
+@media screen and (max-width:16.875em) {
+    .overall-header-container-overall{
+        padding-inline: 2rem;
+    }  
+}
+.left-side-container-header{
+
+}
+.left-side-container-header h3{
+cursor: pointer;
+}
+.right-side-container-header{
+padding-top: .3rem;
+}
+@media screen and (max-width:53.125em) {
+    .right-side-container-header{ 
+        padding-top: 0px;
+    }
+}
+.right-side-container-header ul{
+display: flex;
+flex-direction: row;
+gap: 2rem;
+}
+@media screen and (max-width:53.125em) {
+    .right-side-container-header ul{
+        display: none;
+    }
+}
+.right-side-container-header ul li{
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+color: white;
+cursor: pointer;
+}
+.right-side-container-header ul li:hover{
+    color: yellowgreen;
+    border-bottom: 2px solid yellowgreen;
+    transform: scale(1.1); 
+    box-shadow: 0px 4px 10px rgba(154, 205, 50, 0.4); 
+    background-color: rgba(154, 205, 50, 0.1);    
+}
+
+@media screen and (min-width:53.125em) {
+    .menu-icon-bar-header{
+   display: none;
+    }
+}
+/* .overall-header-container-overall{
+background-color: black;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding-block:1rem;
+align-items: center;
+padding-inline: 4rem;
+gap: 2rem;
+
+}
+.left-side-logo{
+    margin-top: 1.5rem;
+}
+.left-side-logo h3{
+cursor: pointer;
+}
+.right-side-logo{
+display: flex;
+flex-direction: row;
+gap: 3rem;
+}
+
+@media screen and (max-width:60.625em) {
+    .right-side-logo{
+        display: none;
+    }   
+}
+
+.right-side-logo li {
+    transition: all 0.3s ease-in-out;
+    color: white;
+    cursor: pointer;
+}
+
+.right-side-logo li:hover {
+    color: yellowgreen;
+    border-bottom: 2px solid yellowgreen;
+    transform: scale(1.1); 
+    box-shadow: 0px 4px 10px rgba(154, 205, 50, 0.4); 
+    background-color: rgba(154, 205, 50, 0.1); 
+}
+.small-screen-side-display{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+}
+@media screen and (min-width:60.625em) {
+    .small-screen-side-display{
+display: none;
+    }
+    
+} */
+
+
+  
