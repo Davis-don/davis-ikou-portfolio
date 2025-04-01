@@ -1,6 +1,6 @@
 .overall-about-container{
 height:max-content;
-background-color: black;
+background-color: rgb(14, 3, 38);
 display: grid;
 grid-template-columns: repeat(auto-fit,minmax(40rem,1fr));
 }
