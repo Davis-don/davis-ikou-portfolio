@@ -27,8 +27,12 @@ width: 100%;
 padding-inline: 3rem;
 }
 .right-side-about-section h1{
-color: var(--secondary-color);
-font-size: 5rem;
+
+    font-size: 5rem;
+    background: linear-gradient(90deg, var(--secondary-color), #ffcc00);
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
 font-weight: 700;
 }
 @media screen and (max-width:22.5em) {
