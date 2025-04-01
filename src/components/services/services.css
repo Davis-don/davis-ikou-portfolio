@@ -1,0 +1,149 @@
+.overall-whyus-container{
+    padding-block: 2rem;
+    background-color: var(--primary-color);
+    padding-inline: 1.5rem;
+    padding-block: 6rem;
+    }
+    .whyus-softwares-heading{
+    text-align: center;
+    font-size: 3rem;
+    background: linear-gradient(90deg, var(--secondary-color), #ffcc00);
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    }
+    .why-cards-home{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    gap: 5rem;
+    padding-top: 2rem;
+    }
+    
+    @media screen and (max-width:16.375em) {
+        .why-cards-home{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            
+        }
+    }
+    
+    
+    .why-card-home {
+        position: relative;
+        height: 30rem;
+        border: 1px solid black;
+        box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.5);
+        transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+        animation: floatShadow 3s infinite ease-in-out;
+      }
+      
+      /* Floating shadow animation */
+      @keyframes floatShadow {
+        0% {
+          transform: translateY(0);
+          box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.5);
+        }
+        50% {
+          transform: translateY(-10px);
+          box-shadow: 0px 20px 30px rgba(255, 255, 255, 0.7);
+        }
+        100% {
+          transform: translateY(0);
+          box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.5);
+        }
+      }
+      
+    
+    .mentorship-card{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+        url('../../assets/frontend-dev.png');
+        background-position: center; 
+        background-size: cover; 
+        background-repeat: no-repeat;
+    }
+    
+    
+    .mentorship-card h3{
+    text-align: center;  
+    font-size: 2rem;
+    margin-top: 1.8rem;
+    }
+    .mentorship-card p{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    }
+    .programming-card{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+        url('../../assets/backend.png');
+        background-position: center; 
+        background-size: cover; 
+        background-repeat: no-repeat;
+    }
+    .programming-card h3{
+        text-align: center;  
+        font-size: 2rem;
+        margin-top: 1.8rem;
+    }
+    .programming-card p{
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 2rem;  
+    }
+    
+    .deliverly-card{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+        url('../../assets/deployment-maintainace.png');
+        background-position: center; 
+        background-size: cover; 
+        background-repeat: no-repeat;
+    }
+    .deliverly-card h3{
+        text-align: center;  
+        font-size: 2rem;
+        margin-top: 1.8rem; 
+    }
+    .deliverly-card p{
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 2rem; 
+    }
+    
+    .pricing-card{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+        url('../../assets/uiuximage.png');
+        background-position: center; 
+        background-size: cover; 
+        background-repeat: no-repeat;   
+    }
+    .pricing-card h3{
+        text-align: center;  
+        font-size: 2rem;
+        margin-top: 1.8rem; 
+    }
+    .pricing-card p{
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 2rem;  
+    }
+    .icon-why-holder{
+    position: absolute;
+    z-index: +1;
+    background-color: white;
+    height: 8rem;
+    width: 8rem;
+    top: 100%; 
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center
+    }
+    
+    .icon-why-holder img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    }
